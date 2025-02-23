@@ -12,25 +12,6 @@ A API StarCafé permite visualizar o cardápio, efetuar pedidos e verificar ou c
 - `Content-Type: application/json` → Define que o corpo da requisição/resposta está em JSON.
 - `Accept: application/json` → Indica que o cliente espera uma resposta em JSON.
 
-
-**Exemplo de Requisição:**
-```http
-GET /api/menu HTTP/1.1
-Host: api.starcafe.com
-Accept: application/json
-```
-
-**Exemplo de Resposta:**
-```json
-[
-  {"nome": "Café Preto", "preco": 5.0, "tamanho": "grande", "status": "pendente"},
-  {"nome": "Pão de Batata", "preco": 7.0, "tamanho": "médio", "status": "em preparação"},
-  {"nome": "Pão na Chapa", "preco": 4.0, "tamanho": "grande", "status": "em preparação"},
-  {"nome": "Cappucino", "preco": 4.0, "tamanho": "grande", "status": "pronto"},
-  {"nome": "Bolo de Fubá", "preco": 6.0, "tamanho": "grande", "status": "pronto"}
-]
-```
-
 ---
 
 ## **Endpoints da API**
